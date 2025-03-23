@@ -1,0 +1,44 @@
+.container {
+    background-color: #FFF7EC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    /* height: 100%; */
+    /* padding-bottom: 30px; */
+    width: 97%;
+    /* padding-top: 30px; */
+    margin-top: 160px;
+}
+
+.wrapperTitle {
+    max-width: 800px;
+    /* width: 100%; */
+}
+
+.Title {
+    color: #033F73;
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.paragraph {
+    color: #0101018F;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wrapperParagraph {
+    max-width: 520px;
+}
+
+.carousel{
+    /* flex: 1; */
+    width: 99%;
+    padding-top: 20px;
+    /* display: flex;
+    flex-direction: row; */
+    margin: 0px;
+}

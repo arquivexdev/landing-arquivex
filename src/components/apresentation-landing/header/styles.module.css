@@ -1,0 +1,39 @@
+.container {
+    background-color: #FFFFFF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    /* height: 200px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+.wrapperLink {
+    display: flex;
+    gap: 30px;
+    /* padding-top: 20px; */
+    justify-content: center;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+}
+
+.link:hover {
+    border-bottom: 2px solid #F07608;
+}
+
+.link {
+    height: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    /* font-family: "Poppins"; */
+    color: #033F73;
+    text-decoration: none;
+
+}

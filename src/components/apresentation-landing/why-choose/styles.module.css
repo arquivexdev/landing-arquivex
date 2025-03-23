@@ -1,0 +1,51 @@
+.container{
+    padding: 130px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.wrapperTitle{
+    max-width: 848px;
+    text-align: center;
+}
+
+.title{
+    color: #033f73;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.paragraph{
+    color: #0101018F;
+    font-size: 16px;
+    font-weight: 400;
+}
+.wrapper{
+    max-width: 300px;
+}
+
+.wrapperImg{
+    padding-top: 30px;
+}
+
+.wrapperCard{
+    display: flex;
+    flex-direction: row;
+    /* background-color: darkgray; */
+    gap: 20px;
+   
+}
+
+.titleCard{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.paragraphCard{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0101018F;
+}

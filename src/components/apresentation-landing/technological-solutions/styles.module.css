@@ -1,0 +1,28 @@
+.container{
+    padding: 130px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color:#FFF7EC ;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.card{
+    display: flex;
+    /* gap: 30px; */
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.wrapperText{
+    max-width: 600px;
+
+    @media (max-width: 1000px) {
+        max-width: 400px;
+    }
+}

@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    background-color: #033F73;
+    width: 100%;
+    height: 250px;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.wrapperSocial{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.wrapperImg{
+    padding-top: 30px;
+}
+
+.paragraph{
+    color: #FFFFFF;
+}
+
+.divider{
+    border-right: 1px solid white;
+}

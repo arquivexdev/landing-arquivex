@@ -1,0 +1,35 @@
+.container{
+    max-width: 500px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px rgb(58, 57, 57);
+    z-index: 1;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+
+}
+
+.wrapperButton{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #033F73;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.buttonRejeitar{
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #033F73;
+}

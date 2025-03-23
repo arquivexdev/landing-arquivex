@@ -1,0 +1,18 @@
+#root {
+background-color: #FFFFFF;
+  margin: 0 !important;
+  padding: 0 !important;
+
+}
+
+/* .typebot-bubble-button {
+  position: fixed !important;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+} */
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}

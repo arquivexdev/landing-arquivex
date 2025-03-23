@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    /* background-color: #EBF5FC; */
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 50px;
+    /* margin: 100px 0px; */
+    border-radius: 20px;
+}
+
+
+
+.wrapperTitle{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+   align-items: center;
+   margin-top: 50px;
+
+}
+
+.title{
+    color: #033f73;
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0;
+   
+}
+
+.paragraph{
+    color: #0101018F;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+   
+}
+
+.divider {
+    height: 5px;
+    background: linear-gradient(to right, #FED3A0, #ffffff, #FED3A0);
+    
+}
