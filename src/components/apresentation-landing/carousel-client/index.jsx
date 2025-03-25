@@ -30,7 +30,30 @@ const Carousel = () => {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 1000,
-        pauseOnHover: false
+        pauseOnHover: false,
+        responsive:[
+            {
+                breakpoint: 840,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    autoplaySpeed: 1500,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    autoplaySpeed: 1500,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            
+        ]
        
     };
 
@@ -44,7 +67,7 @@ const Carousel = () => {
                 <Slider {...settings}>
                     {images.map((img, index) => (
                         <div style={{paddingTop:'20'}} key={index}>
-                            <img src={img} alt={`Slide ${index + 1}`} style={{ width: 160, borderRadius: "10px", marginRight:'10px' }} />
+                            <img className={styles.img} src={img} alt={`Slide ${index + 1}`} />
                         </div>
                     ))}
                 </Slider>

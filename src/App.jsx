@@ -14,19 +14,19 @@ import TypebotChat from './components/typeBot'
 
 function App() {
 
-
+  // style={{display:'flex', flexDirection:'column', justifyContent:"center", alignItems:'center'}}
   return (
-    <div style={{display:'flex', flexDirection:'column', justifyContent:"center", alignItems:'center'}} >
+    <div  >
       <Header />
       <TypebotChat />
       <CompletePlataform />
       <ModalCookie />
       <WhyChoose />
       <Carousel />
-      <CompanyNumbers />
-      <GedSolutions />
-      <TechnologicalSolutions />
-      <Footer />
+      {/* <CompanyNumbers /> */}
+      {/* <GedSolutions /> */}
+      {/* <TechnologicalSolutions /> */}
+      {/* <Footer /> */}
 
     </div>
   )
