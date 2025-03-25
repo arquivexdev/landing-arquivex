@@ -26,24 +26,24 @@ const Organizacao = () => {
                     <div>
 
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <img src='checkmark.png' width={30} height={30} />
-                            <p style={{ color: '#033f73', fontSize: "20px", fontWeight: '600' }}>Sistema 100% na nuvem</p>
+                            <img src='checkmark.png'  className={styles.icon} />
+                            <p className={styles.description}>Sistema 100% na nuvem</p>
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <img src='checkmark.png' width={30} height={30} />
-                            <p style={{ color: '#033f73', fontSize: "20px", fontWeight: '600' }}>Consulta de arquivo</p>
+                            <img src='checkmark.png'  className={styles.icon} />
+                            <p className={styles.description}>Consulta de arquivo</p>
                         </div>
 
                     </div>
                     <div>
 
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <img src='checkmark.png' width={30} height={30} />
-                            <p style={{ color: '#033f73', fontSize: "20px", fontWeight: '600' }}>Rastreabilidade</p>
+                            <img src='checkmark.png'  className={styles.icon} />
+                            <p className={styles.description}>Rastreabilidade</p>
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <img src='checkmark.png' width={30} height={30} />
-                            <p style={{ color: '#033f73', fontSize: "20px", fontWeight: '600' }}>Geração de etiquetas</p>
+                            <img src='checkmark.png'  className={styles.icon} />
+                            <p className={styles.description}>Geração de etiquetas</p>
                         </div>
 
                     </div>

@@ -11,7 +11,7 @@ const GuardaDD = () => {
             <div className={styles.wrapperInfo}>
                 <div  className={styles.wrapperText}>
                     <h1 className={styles.title}>Guarda de Documentos Digitais</h1>
-                    <h3 style={{ fontSize: "16px", fontWeight: '500', maxWidth: "580px", color: '#0101018F' }}>
+                    <h3 className={styles.paragraph}>
                         A guarda de documentos digitais com certificado digital é a solução definitiva para uma gestão documental segura
                         e eficaz. Com uma plataforma interativa, semelhante às interfaces do Windows e do Mac, a usabilidade é extremamente
                         intuitiva e conveniente. Tecnologias avançadas, como OCR e indexação de pastas, permitem pesquisas rápidas e precisas,
@@ -24,24 +24,24 @@ const GuardaDD = () => {
                     <div>
 
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <img src='checkmark.png' width={30} height={30} />
-                            <p style={{ color: '#033f73', fontSize: "20px", fontWeight: '600' }}>Pesquisa Rápida e inteligente</p>
+                            <img src='checkmark.png' className={styles.icon} />
+                            <p className={styles.description}>Pesquisa Rápida e inteligente</p>
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <img src='checkmark.png' width={30} height={30} />
-                            <p style={{ color: '#033f73', fontSize: "20px", fontWeight: '600' }}>Busca OCR por conteúdo</p>
+                            <img src='checkmark.png' className={styles.icon} />
+                            <p className={styles.description}>Busca OCR por conteúdo</p>
                         </div>
 
                     </div>
                     <div>
 
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <img src='checkmark.png' width={30} height={30} />
-                            <p style={{ color: '#033f73', fontSize: "20px", fontWeight: '600' }}>Mais eficiência na pesquisa</p>
+                            <img src='checkmark.png' className={styles.icon} />
+                            <p className={styles.description}>Mais eficiência na pesquisa</p>
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <img src='checkmark.png' width={30} height={30} />
-                            <p style={{ color: '#033f73', fontSize: "20px", fontWeight: '600' }}>Não perca tempo procurando</p>
+                            <img src='checkmark.png' className={styles.icon} />
+                            <p className={styles.description}>Não perca tempo procurando</p>
                         </div>
 
                     </div>

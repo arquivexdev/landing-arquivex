@@ -23,24 +23,24 @@ const Escaneamento = () => {
                     <div>
 
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <img src='checkmark.png' width={30} height={30} />
-                            <p style={{ color: '#033f73', fontSize: "20px", fontWeight: '600' }}>Fácil digitalização</p>
+                            <img src='checkmark.png' className={styles.icon}  />
+                            <p className={styles.description} >Fácil digitalização</p>
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <img src='checkmark.png' width={30} height={30} />
-                            <p style={{ color: '#033f73', fontSize: "20px", fontWeight: '600' }}>Rápida captura de imagens</p>
+                            <img src='checkmark.png' className={styles.icon}  />
+                            <p className={styles.description} >Rápida captura de imagens</p>
                         </div>
 
                     </div>
                     <div>
 
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <img src='checkmark.png' width={30} height={30} />
-                            <p style={{ color: '#033f73', fontSize: "20px", fontWeight: '600' }}>Dentro das especificações legais</p>
+                            <img src='checkmark.png' className={styles.icon}  />
+                            <p className={styles.description} >Dentro das especificações legais</p>
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <img src='checkmark.png' width={30} height={30} />
-                            <p style={{ color: '#033f73', fontSize: "20px", fontWeight: '600' }}>Versátil e cheio de funcionalidades</p>
+                            <img src='checkmark.png' className={styles.icon}  />
+                            <p className={styles.description} >Versátil e cheio de funcionalidades</p>
                         </div>
 
                     </div>

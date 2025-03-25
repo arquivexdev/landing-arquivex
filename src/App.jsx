@@ -23,8 +23,8 @@ function App() {
       <ModalCookie />
       <WhyChoose />
       <Carousel />
-      {/* <CompanyNumbers /> */}
-      {/* <GedSolutions /> */}
+      <CompanyNumbers />
+      <GedSolutions />
       {/* <TechnologicalSolutions /> */}
       {/* <Footer /> */}
 

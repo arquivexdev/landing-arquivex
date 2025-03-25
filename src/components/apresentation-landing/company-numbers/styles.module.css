@@ -17,6 +17,11 @@
    align-items: center;
    margin-top: 50px;
 
+   @media (max-width: 768px) {
+   flex-direction: column;
+   gap: 20px;
+}
+
 }
 
 .title{
@@ -25,6 +30,10 @@
     font-weight: 700;
     margin: 0;
    
+    @media (max-width: 768px) {
+        font-size: 35px;
+    }
+    
 }
 
 .paragraph{
@@ -32,7 +41,10 @@
     font-size: 20px;
     font-weight: 400;
     margin: 0;
-   
+
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
 }
 
 .divider {
@@ -40,3 +52,53 @@
     background: linear-gradient(to right, #FED3A0, #ffffff, #FED3A0);
     
 }
+
+
+.number{
+    font-size: 65px;
+    font-weight: bold;
+
+    @media (max-width: 1200px) {
+        font-size: 50px;
+    }
+    @media (max-width: 958px) {
+        font-size: 35px;
+    }
+}
+
+.description{
+    font-size: 19px;
+    color: #555;
+
+    @media (max-width: 1200px) {
+        font-size: 16px;
+    }
+    @media (max-width: 958px) {
+        font-size: 14px;
+    }
+}
+
+.wrapper{
+    /* style={{ display: "flex", justifyContent: "center", padding: "50px 0", textAlign: "center" }} */
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    text-align: center;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.card{
+    /* style={{ padding: "20px", maxWidth: '300px' }} */
+    padding: 20px;
+    max-width: 300px;
+
+    @media (max-width: 768px) {
+        padding: 0;
+        max-width: none;
+    }
+}
+

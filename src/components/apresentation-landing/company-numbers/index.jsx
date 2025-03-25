@@ -21,18 +21,18 @@ const CompanyNumbers = () => {
                 <h3 className={styles.paragraph}>Nossos números representam parte da nossa história</h3>
             </div>
 
-            <div>
-                <div style={{ display: "flex", justifyContent: "center", padding: "50px 0", textAlign: "center" }}>
+           
+                <div className={styles.wrapper}>
                     {status.map((stat, index) => (
-                        <div key={index} style={{ padding: "20px", maxWidth: '300px' }}>
-                            <h2 style={{ fontSize: "65px", fontWeight: "bold" }}>
+                        <div key={index} className={styles.card}>
+                            <h2 className={styles.number}>
                                 <CountUp start={0} end={stat.value} duration={2} separator="," suffix={stat.suffix} />
                             </h2>
-                            <p style={{ fontSize: "1.2rem", color: "#555" }}>{stat.label}</p>
+                            <p className={styles.description}>{stat.label}</p>
                         </div>
                     ))}
                 </div>
-            </div>
+           
 
             {/* <div className={styles.divider}></div> */}
 
