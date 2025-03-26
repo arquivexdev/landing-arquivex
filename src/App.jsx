@@ -25,8 +25,8 @@ function App() {
       <Carousel />
       <CompanyNumbers />
       <GedSolutions />
-      {/* <TechnologicalSolutions /> */}
-      {/* <Footer /> */}
+      <TechnologicalSolutions />
+      <Footer />
 
     </div>
   )

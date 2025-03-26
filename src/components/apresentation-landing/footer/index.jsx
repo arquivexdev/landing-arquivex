@@ -22,7 +22,7 @@ const Footer = () => {
 
             <div className={styles.divider}></div>
 
-            <div >
+            <div className={styles.wrapperLink}>
                 <h2 className={styles.paragraph}>Redes Sociais</h2>
                 <div className={styles.wrapperSocial}>
                     <img width={30} height={30} src="insta.png" alt="insta" />

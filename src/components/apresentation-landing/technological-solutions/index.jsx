@@ -8,8 +8,8 @@ const TechnologicalSolutions = () => {
 
             <div className={styles.card}>
                 <div className={styles.wrapperText}>
-                    <h2>OCR (Reconhecimenti Óptico de Caracteres)</h2>
-                    <p>
+                    <h2 className={styles.title}>OCR (Reconhecimenti Óptico de Caracteres)</h2>
+                    <p className={styles.paragraph}>
                         O OCR, ou Reconhecimento Óptico de Caracteres, é uma tecnologia que desempenha um papel fundamental na
                         transformação digital de documentos.Ele permite a conversão de texto impresso ou manuscrito em formato
                         eletrônico, facilitando a busca, edição e armazenamento de informações.Essa tecnologia é amplamente
@@ -22,8 +22,8 @@ const TechnologicalSolutions = () => {
             <div className={styles.card}>
                 <img src="assinatura.jpg" alt="OCR" width={285} height={400} style={{ borderRadius: "5px 100px 100px 5px" }} />
                 <div className={styles.wrapperText}>
-                    <h2>Assinatura Digital</h2>
-                    <p>
+                    <h2 className={styles.title}>Assinatura Digital</h2>
+                    <p className={styles.paragraph}>
                         A assinatura digital é uma técnica avançada que garante a autenticidade e integridade de documentos eletrônicos.
                         Ela envolve o uso de algoritmos criptográficos para criar uma representação única de uma assinatura, que é
                         vinculada ao conteúdo do documento.<br /> Essa assinatura não apenas confirma a identidade do signatário, mas também
@@ -35,8 +35,8 @@ const TechnologicalSolutions = () => {
             </div>
             <div className={styles.card}>
                 <div className={styles.wrapperText}>
-                    <h2>Controle e Auditoria de Dados e Quantidades no Sistema</h2>
-                    <p>
+                    <h2 className={styles.title}>Controle e Auditoria de Dados e Quantidades no Sistema</h2>
+                    <p className={styles.paragraph}>
                         O controle e a auditoria desempenham um papel crítico na gestão de sistemas, especialmente em cenários que
                         envolvem dados e quantidades. Por meio de rigorosos mecanismos de controle, as organizações podem garantir a
                         precisão e a confiabilidade de seus dados, minimizando erros e riscos operacionais.<br /> A auditoria, por sua vez,
