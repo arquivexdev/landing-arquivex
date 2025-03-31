@@ -5,15 +5,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-    "public/logoCliente/camaraJana.png",
-    "public/logoCliente/camaraPort.png",
-    "public/logoCliente/camaraRiacho.png",
-    "public/logoCliente/fabriciano.png",
-    "public/logoCliente/franciscoSa.jpg",
+    // "public/logoCliente/camaraJana.png",
+    "public/logoCliente/cam-port.png",
+    "public/logoCliente/cam-riacho.png",
+    "public/logoCliente/coronelFab.png",
+    "public/logoCliente/franciscoSa.png",
     "public/logoCliente/janauba.png",
-    "public/logoCliente/matiasCardoso.png",
+    // "public/logoCliente/matiasCardoso.png",
     "public/logoCliente/odontoclinic.png",
-    "public/logoCliente/port.jpg",
+    "public/logoCliente/Pref-Porteirinha.png",
     "public/logoCliente/riacho.png",
     "public/logoCliente/serraGeral.png",
     "public/logoCliente/serranopolis.png",
