@@ -4,9 +4,9 @@ import CountUp from "react-countup";
 
 const status = [
     { label: "Anos atuando no mercado de digitalização de documentos", value: 5, suffix: "+" },
-    { label: "De documentos tratados através da nossa tecnologia", value: 1200, suffix: "mi" },
-    { label: "Clientes espalhados por todo Brasil", value: 10, suffix: "+" },
-    { label: "Estados sendo atendidos por nossa equipe", value: 200, suffix: "" },
+    { label: "De documentos tratados através da nossa tecnologia", value: 10, suffix: " mi+" },
+    { label: "Clientes espalhados por todo Brasil", value: 98},
+    { label: "Estados sendo atendidos por nossa equipe", value: 4, suffix: "" },
 ];
 
 
