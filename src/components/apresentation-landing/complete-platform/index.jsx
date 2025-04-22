@@ -38,7 +38,7 @@ const CompletePlataform = () => {
                 <Slider {...settings}>
                     {image.map((img, index) => (
                         <div  style={{ width: '100%', }} key={index}>
-                            <img width={'100%'} height={800} src={img.src} alt={`Slide ${index + 1}`}  style={{ margin:'0', padding:'0', borderRadius:'0px 0px 20px 20px' }} />
+                            <img width={'100%'} height={595} src={img.src} alt={`Slide ${index + 1}`}  style={{ margin:'0', padding:'0', borderRadius:'0px 0px 20px 20px' }} />
                         </div>
                     ))}
                 </Slider>

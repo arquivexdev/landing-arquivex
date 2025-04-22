@@ -6,22 +6,33 @@
     align-items: center;
     text-align: center;
     border-radius: 30px;
-    /* height: 100%; */
-    /* padding-bottom: 30px; */
     width: 100%;
-    /* padding-top: 30px; */
     margin-top: 130px;
+
+    /* @media (max-width: 768px) {
+        padding: 30px;
+    } */
 }
 
 .wrapperTitle {
     max-width: 800px;
     /* width: 100%; */
+    @media (max-width: 768px) {
+        max-width: 660px;
+        padding: 0px 20px;
+        
+        
+    }
 }
 
 .Title {
     color: #033F73;
     font-size: 52px;
     font-weight: 400;
+
+    @media  (max-width: 768px) {
+        font-size: 45px; 
+    }
 }
 
 .paragraph {
@@ -32,14 +43,21 @@
 
 .wrapperParagraph {
     max-width: 520px;
-    padding: 0px 10px;
+    
+    @media  (max-width: 768px) {
+       padding: 0px 20px;
+    }
 }
 
 .carousel{
     /* flex: 1; */
-    width: 99%;
+    width: 100%;
     padding-top: 20px;
     /* display: flex;
     flex-direction: row; */
     margin: 0px;
+
+    @media (max-width: 768px) {
+        display: none; 
+    }
 }
