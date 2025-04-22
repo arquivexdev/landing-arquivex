@@ -15,7 +15,7 @@ const WhyChoose = () => {
                 </h2>
             </div>
 
-            <div style={{ display: "flex", flexWrap: 'wrap', maxWidth: '900px', justifyContent: 'space-between', gap: 40, marginTop: 30, marginLeft: 40 }}>
+            <div style={{ display: "flex", flexWrap: 'wrap', maxWidth: '900px', justifyContent: 'space-between', gap: 40, padding:'20px' }}>
                 <div className={styles.wrapperCard}>
                     <div className={styles.wrapperImg}>
                         <img width={40} height={40} src="secure-shield.png" alt="" />
