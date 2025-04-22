@@ -17,10 +17,10 @@ const TechnologicalSolutions = () => {
                         eficiente, economizando tempo e recursos.
                     </p>
                 </div>
-                <img src="ocr.png" alt="OCR" width={'auto'} height={400} style={{ borderRadius: "100px 5px 5px 100px" }} />
+                <img className={styles.img} src="ocr.png" alt="OCR" width={'auto'} height={400} style={{ borderRadius: "100px 5px 5px 100px" }} />
             </div>
             <div className={styles.card}>
-                <img src="assinatura.jpg" alt="OCR" width={285} height={400} style={{ borderRadius: "5px 100px 100px 5px" }} />
+                <img className={styles.img} src="assinatura.jpg" alt="OCR" width={285} height={400} style={{ borderRadius: "5px 100px 100px 5px" }} />
                 <div className={styles.wrapperText}>
                     <h2 className={styles.title}>Assinatura Digital</h2>
                     <p className={styles.paragraph}>
@@ -45,7 +45,7 @@ const TechnologicalSolutions = () => {
                         o cumprimento de regulamentações e a garantia da integridade dos registros.
                     </p>
                 </div>
-                <img src="auditoria.png" alt="OCR" width={'auto'} height={400} style={{ borderRadius: "100px 5px 5px 100px" }} />
+                <img className={styles.img} src="auditoria.png" alt="OCR" width={'auto'} height={400} style={{ borderRadius: "100px 5px 5px 100px" }} />
             </div>
         </div>
     )

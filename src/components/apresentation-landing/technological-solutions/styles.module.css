@@ -34,3 +34,10 @@
 .title{
     padding: 0px 15px;
 }
+
+.img{
+    @media  (max-width: 600px) {
+        display: none;
+        
+    }
+}
